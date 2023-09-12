@@ -5,7 +5,8 @@ void main() {
 
   for (int angka = 0; angka <= 201; angka++) {
     if (isPrime(angka)) {
-      print("Bilangan Prima: $angka");
+      print("--------------------------------");
+      print("Halo Aku Bilangan Prima $angka");
       print("Nama : $nama");
       print("NIM: $nim");
       print("--------------------------------");

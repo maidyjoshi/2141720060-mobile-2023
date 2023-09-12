@@ -109,4 +109,5 @@ Kode Program:
 
 
 Hasil Running:
-![Screenshot hello_world](docs/running_tugas.png)
+![Screenshot hello_world](docs/running_tugas1.png)
+![Screenshot hello_world](docs/running_tugas2.png)
