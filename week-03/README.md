@@ -1,5 +1,9 @@
 # TUGAS PRAKTIKUM PERTEMUAN 3
 
+# NAMA: MAIDY PUTRI JOSHI
+
+# NIM: 2141720060
+
 1. Silakan selesaikan Praktikum 1 sampai 3, lalu dokumentasikan berupa screenshot hasil pekerjaan beserta penjelasannya!
 
 
