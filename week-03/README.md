@@ -111,3 +111,8 @@ Kode Program:
 Hasil Running:
 ![Screenshot hello_world](docs/running_tugas1.png)
 ![Screenshot hello_world](docs/running_tugas2.png)
+
+
+# TUGAS SWITCH CASE
+
+![Screenshot hello_world](docs/tugas_switch_case.png)
