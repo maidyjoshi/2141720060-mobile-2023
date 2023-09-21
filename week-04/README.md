@@ -16,6 +16,7 @@
 
 #### PRAKTIKUM 1
 Langkah 1:
+
 ![Screenshot hello_world](docs/p1_1.png)
 
 Langkah 2:
@@ -31,14 +32,17 @@ Ubah kode pada langkah 1 menjadi variabel final yang mempunyai index = 5 dengan 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki.
 
 Jawab:
+
 ![Screenshot hello_world](docs/p1_3.png)
 
 PERBAIKAN:
+
 ![Screenshot hello_world](docs/p1_3p.png)
 
 #### PRAKTIKUM 2
 
 Langkah 1:
+
 ![Screenshot hello_world](docs/p2_1.png)
 
 Langkah 2:
@@ -50,11 +54,13 @@ Jawab:
 Tidak terjadi error.
 
 Langkah 3:
+
 ![Screenshot hello_world](docs/p2_3.png)
 
 #### PRAKTIKUM 3
 
-Langkah 1
+Langkah 1:
+
 ![Screenshot hello_world](docs/p3_1.png)
 
 Langkah 2:
@@ -66,10 +72,12 @@ Jawab:
 Tidak terjadi error.
 
 Langkah 3:
+
 ![Screenshot hello_world](docs/p3_3.png)
 
 
 Langkah 1:
+
 ![Screenshot hello_world](docs/p4_1.png)
 
 Langkah 2:
@@ -79,6 +87,7 @@ Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jela
 Jawab:
 
 PERBAIKAN:
+
 ![Screenshot hello_world](docs/p4_2.png)
 
 Pada print(list1) tidak akan terbaca karena belum di deklarasikan sebelumnya, jadi dihapus dan hanya ada variabel 'list' sekarang dideklarasikan dengan nama list dan bukan list1.
@@ -98,6 +107,7 @@ Ya, terjadi error karena kode yang menyebabkan error pada 'list1 = [1, 2, null];
 yang akan diperbaiki dengan mendeklarasikan variabel list1 dengan tipe data var. Dengan itu memungkinkan penggunaan list1 dalam kode selanjutnya.
 
 PERBAIKAN:
+
 ![Screenshot hello_world](docs/p4_3p.png)
 
 Langkah 4:
@@ -105,15 +115,19 @@ Langkah 4:
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika variabel promoActive ketika true dan false.
 
 Jawab:
+
 ![Screenshot hello_world](docs/p4_4.png)
 
 PERBAIKAN:
+
 ![Screenshot hello_world](docs/p4_4.png)
+
 Seharusnya diperlukan pendeklarasian untuk if true or false
 
 Langkah 5:
 
 Jawab:
+
 ![Screenshot hello_world](docs/p4_5.png)
 
 Perbaikannya dengan memberikan nilai 'Manager' ke variabel login untuk menunjukkan bahwa 'Inventory' akan disertakan dalam nav2.
@@ -130,6 +144,7 @@ Maka hasilnya adalah list listOfStrings yang berisi elemen-elemen berdasarkan ni
 Apabila tanpa "Collection for," maka harus menulis perulangan manual dan membuat list dengan lebih banyak kode.
 
 Dengan "Collection for," kita tidak perlu melakukan iterasi manual atau menginisialisasi list kosong dan mengisi elemen-elemennya satu per satu. Sehingga membuat kode lebih efisien dan mengurangi risiko kesalahan.
+
 ![Screenshot hello_world](docs/p4_6.png)
 
 
@@ -138,6 +153,7 @@ Dengan "Collection for," kita tidak perlu melakukan iterasi manual atau menginis
 Langkah 1:
 
 Jawab:
+
 ![Screenshot hello_world](docs/p5_1.png)
 
 Langkah 2:
@@ -146,9 +162,11 @@ Jawab:
 
 Ya, terjadi error karena kurang menambahi ';'
 PERBAIKAN:
+
 ![Screenshot hello_world](docs/p5_1p.png)
 
 Langkah 3:
+
 ![Screenshot hello_world](docs/p5_3.png)
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Gunakan fungsi tukar() di dalam main() sehingga tampak jelas proses pertukaran value field di dalam Records.
@@ -166,14 +184,17 @@ Langkah 4:
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Inisialisasi field nama dan NIM Anda pada variabel record mahasiswa di atas. Dokumentasikan hasilnya dan buat laporannya!
 
 Jawab:
+
 ![Screenshot hello_world](docs/p5_4.png)
 
 Ya, terjadi error karena belum diinisialisasikan fieldnya.
 
 PERBAIKAN:
+
 ![Screenshot hello_world](docs/p5_4p.png)
 
 Langkah 5:
+
 ![Screenshot hello_world](docs/p5_5.png)
 
 Gantilah salah satu isi record dengan nama dan NIM Anda, lalu dokumentasikan hasilnya dan buat laporannya!
