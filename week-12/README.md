@@ -82,6 +82,8 @@ Pada penggunaan variabel futureGroup langkah pertama, variabel futureGroup disim
 Soal 9
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 9".
 
+![Screenshot hello_world](docs/soal9.gif)
+
 Soal 10
 - Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
 - **Jawaban:**
