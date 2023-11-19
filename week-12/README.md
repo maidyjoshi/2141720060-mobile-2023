@@ -74,6 +74,9 @@ Soal 7
 
 Soal 8
 - Jelaskan maksud perbedaan kode langkah 1 dan 4!
+- **Jawaban:**
+Pada penggunaan variabel futureGroup langkah pertama, variabel futureGroup disimpan terlebih dahulu, yang merupakan objek yang dapat digunakan untuk mengelompokkan beberapa Future bersama-sama. Pada langkah keempat, variabel futureGroup digantikan oleh Future.wait(), yang merupakan fungsi yang dapat digunakan untuk menunggu beberapa Future selesai dijalankan.
+
 
 # PRAKTIKUM 5
 Soal 9
@@ -81,10 +84,12 @@ Soal 9
 
 Soal 10
 - Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
+- **Jawaban:**
 
 # PRAKTIKUM 6
 Soal 11
 - Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+- **Jawaban:**
 
 Soal 12
 - Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
