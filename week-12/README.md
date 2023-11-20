@@ -90,11 +90,18 @@ Soal 10
 Pada langkah 1, method returnError() tidak menangani error yang terjadi. Jika error terjadi, maka method tersebut akan berhenti dan tidak mengembalikan nilai apa pun.
 
     Sedangkan pada langkah 4, method handleError() menangani kesalahan dengan try-catch-finally. Method handleError() mencoba menjalankan method returnError() pada try block. Jika error terjadi, try block akan berhenti dan error akan ditangkap oleh catch block. Pada catch block, method handleError() menampilkan error ke layar menggunakan print(). Pada akhirnya, blok selalu dijalankan.
-    
+
 # PRAKTIKUM 6
 Soal 11
 - Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
 - **Jawaban:**
+   
+        @override
+        Widget build(BuildContext contex){
+        return Scaffold(
+      appBar: AppBar(title: const Text('Current Location - Maidy PJ')),
+      body: Center(child: Text(myPosition)),
+      );
 
 Soal 12
 - Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
