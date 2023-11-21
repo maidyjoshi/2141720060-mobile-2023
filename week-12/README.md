@@ -136,7 +136,9 @@ after loading 3 sec
 
 Soal 14
 - Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+     Jawaban: Tidak mengubah tampilan UI, karena langkah ini hanya menambahkan fungsi handleError() yang akan dijalankan jika terjadi kesalahan.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 14".
+![Screenshot hello_world](docs/soal14.gif)
 
 # PRAKTIKUM 8
 Soal 15
