@@ -147,11 +147,16 @@ Soal 15
 
 Soal 16
 - Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+     Jawaban: Karena setiap tombol memiliki fungsi Navigation.pop() dengan parameter context dan warna yang telah ditetapkan, warna tombol yang ditekan akan berubah sesuai dengan warna yang telah ditetapkan pada widget ElevatedButton() di class navigation_second.dart.
 - Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".
+
+![Screenshot hello_world](docs/soal16.gif)
+![Screenshot hello_world](docs/soal16mod.gif)
 
 # PRAKTIKUM 9
 Soal 17
 - Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+
 - Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 17"
