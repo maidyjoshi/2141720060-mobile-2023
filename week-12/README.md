@@ -103,10 +103,20 @@ Soal 11
       body: Center(child: Text(myPosition)),
       );
 
+![Screenshot hello_world](docs/l7.jpg)
+
+![Screenshot hello_world](docs/l7.1.jpg)
+
 Soal 12
 - Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
 - Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+- Jawab: Karena geolocator support digunakan untuk browser sehingga bisa mendapatkan koordinat lokasi tersendiri
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
+
+![Screenshot hello_world](docs/soal12.png)
+![Screenshot hello_world](docs/soal12.1.png)
+
+![Screenshot hello_world](docs/soal12.jpg)
 
 # PRAKTIKUM 7
 Soal 13
