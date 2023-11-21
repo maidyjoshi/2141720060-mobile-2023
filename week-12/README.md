@@ -157,6 +157,9 @@ Soal 16
 # PRAKTIKUM 9
 Soal 17
 - Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+     Jawaban: Ketika menekan tombol "Change Color" dan memilih warna dalam dialog, warna latar belakang layar akan berubah. Ini terjadi karena nilai warna diubah dalam fungsi _showColorDialog dan kemudian diperbarui widget dengan menggunakan setState. Tindakan ini akan memicu pembangunan ulang widget dan menampilkan perubahan warna yang telah pilih pada layar.
 
 - Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 17"
+![Screenshot hello_world](docs/soal17.gif)
+![Screenshot hello_world](docs/soal17mod.gif)

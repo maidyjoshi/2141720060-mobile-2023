@@ -1,6 +1,7 @@
 // ignore_for_file: depend_on_referenced_packages, unused_import, unused_local_variable, prefer_const_constructors, avoid_print
 
 import 'package:books/geolocation.dart';
+import 'package:books/navigation_dialog.dart';
 import 'package:books/navigation_first.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-        home: const NavigationFirst(),
+        home: const NavigationDialogScreen(),
     );
   }
 }
