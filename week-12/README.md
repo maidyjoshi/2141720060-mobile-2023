@@ -121,7 +121,17 @@ Soal 12
 # PRAKTIKUM 7
 Soal 13
 - Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+     Jawaban:
+     Yaitu menampilkan koordinat Geolokasi dengan layout yang sama. Hal ini terjadi karena keduanya mengambil lokasi pengguna secara langsung saat aplikasi dimulai.
+     
+     setState digunakan untuk memperbarui variabel state myPosition. Kedua, FutureBuilder digunakan untuk mengelola pembaruan UI secara otomatis. Namun pada akhirnya, hasil tampilan UI terlihat sama karena keduanya memiliki penundaan yang sama, yakni 3 detik.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 13".
+
+Loading 3 sec
+![Screenshot hello_world](docs/soal13.png)
+after loading 3 sec
+![Screenshot hello_world](docs/soal13.1.png)
+![Screenshot hello_world](docs/soal13.gif)
 - Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
 
 Soal 14

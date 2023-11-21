@@ -8,10 +8,12 @@ class LocationScreen extends StatefulWidget {
   State<LocationScreen> createState() => _LocationScreenState();
 }
 class _LocationScreenState extends State<LocationScreen> {
+  Future<Position>? position;
   String myPosition = '';
   @override
   void initState(){
     super.initState();
+    position = getPosition();
     getPosition().then((Position myPos){
       myPosition =
           'Latitude: ${myPos.latitude.toString()} - Longitude: ${myPos.longitude.toString()}';
@@ -21,21 +23,41 @@ class _LocationScreenState extends State<LocationScreen> {
     });
   }
   @override
-  Widget build(BuildContext context){
-    final myWidget = myPosition == ''
-      ? const CircularProgressIndicator()
-      : Text(myPosition);;
-    
+  Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: const Text('Current Location - Maidy PJ')),
-        body: Center(child:(myWidget)),
-      );
+      appBar: AppBar(title: Text('Current Location - Maidy PJ')),
+      body: Center(
+        child: FutureBuilder<Position>(
+          future: position,
+          builder: (BuildContext context, AsyncSnapshot<Position> snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return CircularProgressIndicator();
+            } else if (snapshot.connectionState == ConnectionState.done) {
+              myPosition =
+                  'Latitude: ${snapshot.data?.latitude.toString()} - Longitude: ${snapshot.data?.longitude.toString()}';
+              return Text(myPosition);
+            } else {
+              return Text(''); // Adjust this part according to your needs
+            }
+          },
+        ),
+      ),
+    );
+  }
+
+    // final myWidget = myPosition == ''
+    //   ? const CircularProgressIndicator()
+    //   : Text(myPosition);;
+    
+    // return Scaffold(
+    //     appBar: AppBar(title: const Text('Current Location - Maidy PJ')),
+    //     body: Center(child:(myWidget)),
+    //   );
   }
   Future<Position> getPosition()async{
-    await Geolocator.requestPermission();
     await Geolocator.isLocationServiceEnabled();
-    Position? position = 
+    await Future.delayed(const Duration(seconds:3));
+    Position position = await Geolocator.getCurrentPosition();
       await Geolocator. getCurrentPosition();
       return position;
   }
-}
