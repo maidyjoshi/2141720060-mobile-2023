@@ -18,6 +18,8 @@ KELAS: TI-3F
 - Tambahkan 5 warna lainnya sesuai keinginan Anda pada variabel colors tersebut.
 - Lakukan commit hasil jawaban Soal 2 dengan pesan "W13: Jawaban Soal 2"
 
+![Screenshot hello_world](docs/soal2.png)
+
 ### Soal 3
 - Jelaskan fungsi keyword yield* pada kode tersebut!
 - Apa maksud isi perintah kode tersebut?
