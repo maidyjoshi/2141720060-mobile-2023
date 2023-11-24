@@ -42,8 +42,13 @@ class _StreamHomePageState extends State<StreamHomePage> {
   @override
   void initState() {
     super.initState();
-    colorStream = ColorStream();
-    changeColor();
+    // colorStream = ColorStream();
+    // changeColor();
+    colorStream.getColors().listen((eventColor) {
+      setState(() {
+        bgColor = eventColor;
+      });
+    });
   }
 
   @override

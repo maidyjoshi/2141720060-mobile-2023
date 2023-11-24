@@ -39,7 +39,13 @@ KELAS: TI-3F
 
 ### Soal 5
 - Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
+     jawab: Perbedaan utama antara listen dan await for terletak pada cara mereka menangani peristiwa dari objek Stream. Keduanya digunakan untuk mendengarkan perubahan nilai yang dikirim oleh Stream, tetapi memiliki beberapa perbedaan signifikan.
+     
+     Kedua pendekatan tersebut berfungsi untuk mendengarkan perubahan pada stream, dan pilihan antara keduanya tergantung pada konteks penggunaan. Jika perlu untuk mengatur ketergantungan antara peristiwa dan ingin menggunakan struktur perulangan, await for bisa menjadi pilihan yang baik. Jika hanya perlu menerima peristiwa secara asinkron tanpa memblokir eksekusi kode lainnya, listen dapat digunakan.
+
 - Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
+
+![Screenshot hello_world](docs/soal5.png)
 
 # PRAKTIKUM 2
 ### Soal 6
