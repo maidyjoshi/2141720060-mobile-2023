@@ -32,6 +32,9 @@ KELAS: TI-3F
 
 ### Soal 4
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
+![Screenshot hello_world](docs/soal4.png)
+![Screenshot hello_world](docs/4.gif)
 - Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"
 
 ### Soal 5
