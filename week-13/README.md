@@ -22,8 +22,13 @@ KELAS: TI-3F
 
 ### Soal 3
 - Jelaskan fungsi keyword yield* pada kode tersebut!
+     Jawab: Keyword yield* pada kode tersebut digunakan untuk mendeklarasikan kepada stream atau iterable lain. Dalam konteks kode tersebut, yield* digunakan untuk menggabungkan atau menghubungkan stream yang dihasilkan oleh Stream.periodic dengan stream yang sedang didefinisikan.
+
 - Apa maksud isi perintah kode tersebut?
+     Jawab: Kode tersebut menggunakan fitur pemrograman asinkron Dart, khususnya fungsi Stream.periodic dengan kata kunci yield*. Kode ini mendefinisikan sebuah stream periodik yang menghasilkan nilai berdasarkan interval waktu yang ditentukan. Jadi, secara keseluruhan, kode ini membuat sebuah stream yang mengeluarkan warna dari daftar (colors) secara periodik, mengganti warna setiap detik. Warna-warna dipilih berdasarkan waktu yang telah berlalu sejak stream dimulai, dan stream ini berlanjut tanpa batas. Pernyataan yield* sangat penting untuk menggabungkan sifat periodik dari stream dengan logika pemilihan warna.
 - Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3
+
+![Screenshot hello_world](docs/soal3.png)
 
 ### Soal 4
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
