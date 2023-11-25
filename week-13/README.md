@@ -96,11 +96,16 @@ KELAS: TI-3F
 
 # PRAKTIKUM 5
 ### Soal 10
+![Screenshot hello_world](docs/soal10.png)
 - Jelaskan mengapa error itu bisa terjadi ?
+     jawab: Menggunakan beberapa StreamSubscription pada stream yang sama dapat menyebabkan konflik atau tidak diinginkan. Pastikan Anda memahami penggunaan StreamSubscription yang ada dan apakah diperlukan.
 
 ### Soal 11
 - Jelaskan mengapa hal itu bisa terjadi ?
+     jawab: Kode program Stream stream = numberStreamController.stream.asBroadcastStream(); berfungsi untuk membuat stream yang dapat disiarkan (broadcast stream). Stream yang dibuat dengan asBroadcastStream dapat memiliki multiple subscribers (pendengar) tanpa mempengaruhi data yang diterima oleh setiap subscriber.
+     Dan (Text(values)) digunakan untuk menampilkan nilai dari variabel values, yang diperbarui ketika stream menerima data baru. Dan memungkinkan pengguna untuk menambahkan angka acak baru ke dalam stream dengan menekan tombol.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![Screenshot hello_world](docs/11.gif)
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 10,11".
 
 # PRAKTIKUM 6
