@@ -72,7 +72,12 @@ KELAS: TI-3F
 # PRAKTIKUM 3
 ### Soal 8
 - Jelaskan maksud kode langkah 1-3 tersebut!
+     jawab:
+     - langkah 1: Penggunaan late memberi kita fleksibilitas untuk menentukan tipe dan menginisialisasi variabel di kemudian hari, selama sebelum kita mencoba mengakses atau menggunakan variabel tersebut. Jadi, deklarasi late StreamTransformer transformer; digunakan untuk membuat suatu variabel dengan tipe StreamTransformer, yang bersifat "late".
+     - langkah 2: Metode initState yang diberikan merupakan bagian dari sebuah objek State dalam aplikasi Flutter. Kode di dalamnya menunjukkan inisialisasi variabel transformer sebagai StreamTransformer dengan tipe int ke int. Inisialisasi ini menggunakan metode statis fromHandlers pada StreamTransformer. Hal ini memiliki kemampuan untuk menentukan cara bagaimana data dalam stream diubah, bagaimana kesalahan ditangani, dan apa yang harus dilakukan ketika stream selesai.
+     - langkah 3: Kode tersebut menggunakan StreamTransformer untuk memanipulasi data yang mengalir melalui suatu stream dalam aplikasi Flutter. Data dalam stream diubah menggunakan transformasi yang telah ditentukan, dan hasilnya diterapkan pada lastNumber dalam state widget. Selain itu, jika terjadi kesalahan dalam stream, nilai lastNumber diatur ke -1. Dengan pendekatan ini, widget secara dinamis merespons perubahan data dan kesalahan dalam stream untuk memperbarui tampilan sesuai.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![Screenshot hello_world](docs/8.gif)
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
 
 # PRAKTIKUM 4
