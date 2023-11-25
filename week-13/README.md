@@ -60,7 +60,13 @@ KELAS: TI-3F
 
 ### Soal 7
 - Jelaskan maksud kode langkah 13 sampai 15 tersebut!
+     jawab:
+     - langkah 13: Kode addError pada dasarnya adalah suatu fungsi yang digunakan untuk menambahkan pesan kesalahan ke dalam sink dari suatu controller dalam konteks Flutter. Dalam Flutter, sink adalah bagian dari stream controller yang bertanggung jawab untuk mengirim data ke dalam stream. Dalam hal ini, controller merujuk pada suatu instance dari stream controller, dan sink merupakan properti dari stream controller yang digunakan untuk mengirim data ke dalam stream.
+     - langkah 14: Bagian kode ini menangani kesalahan yang mungkin terjadi dalam aliran data suatu stream. Ketika suatu kesalahan terdeteksi, blok pemrograman dalam metode .onError akan dijalankan. Di dalamnya, kita menggunakan setState untuk memperbarui nilai lastNumber dalam suatu widget. Dalam contoh ini, jika terjadi kesalahan dalam stream, nilai lastNumber diatur menjadi -1. Dengan pendekatan ini, widget yang terkait dengan stream dapat merespons secara dinamis terhadap kesalahan, memungkinkan tindakan yang sesuai diambil, seperti menampilkan pesan kesalahan atau memberikan umpan balik visual kepada pengguna.
+     - langkah 15: Panggilan numberStream.addError() dalam fungsi ini mengindikasikan bahwa fokusnya saat ini lebih kepada menunjukkan bahwa terjadi kesalahan dalam stream. Fungsi ini secara eksplisit menambahkan pesan kesalahan ('error') ke dalam sink dari suatu stream controller (numberStream). Dengan cara ini, fungsi addRandomNumber memberikan cara untuk memicu dan menangani kesalahan di dalam aliran data.
+
 - Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
+![Screenshot hello_world](docs/soal7.png)
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
 
 # PRAKTIKUM 3
