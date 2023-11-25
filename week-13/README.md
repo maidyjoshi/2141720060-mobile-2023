@@ -83,7 +83,15 @@ KELAS: TI-3F
 # PRAKTIKUM 4
 ### Soal 9
 - Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!
+     jawab:
+     - langkah 2: Kode tersebut menciptakan dan mengatur listener untuk suatu stream menggunakan StreamController. Dengan menggunakan StreamController dan listener, kita dapat mendeteksi perubahan data dalam stream dan secara dinamis memperbarui tampilan widget dalam Flutter ketika ada perubahan atau pembaruan data.
+     - langkah 6: subscription.cancel();: Memanggil metode cancel() pada objek subscription. Ini berarti listener yang telah ditambahkan ke stream melalui subscription akan dihapus atau dibatalkan, sehingga tidak akan menerima lagi pembaruan atau data baru dari stream.
+     Ketika suatu widget dalam Flutter di-dispose, hal ini menunjukkan bahwa widget tersebut tidak lagi diperlukan atau digunakan. Dalam konteks ini, membatalkan subscription adalah langkah yang baik untuk mencegah memory leaks dan untuk memastikan bahwa tidak ada pembaruan atau listener yang terjadi pada widget yang sudah di-dispose.
+     - langkah 8: Dalam fungsi addRandomNumber, pertama-tama, kita membuat objek Random untuk menghasilkan angka acak. Kemudian, kita menggunakan nextInt(10) untuk menghasilkan nilai acak antara 0 hingga 9, karena batas atasnya adalah 10.
+     Selanjutnya, melakukan pengecekan menggunakan kondisi if (!numberStreamController.isClosed). Ini berfungsi untuk memastikan bahwa stream controller (numberStreamController) masih terbuka (belum ditutup). Jika masih terbuka, kita melanjutkan dengan menambahkan nilai acak (myNum) ke dalam sink (sink stream controller) menggunakan numberStream.addNumberToSink(myNum). Namun, jika stream controller sudah ditutup (kondisi else), kita menggunakan setState untuk mengubah nilai variabel lastNumber menjadi -1. Hal ini mungkin sebagai respons visual atau indikator bahwa operasi penambahan ke stream tidak dapat dilakukan karena stream sudah ditutup.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![Screenshot hello_world](docs/9.gif)
+![Screenshot hello_world](docs/soal9.png)
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
 
 # PRAKTIKUM 5
