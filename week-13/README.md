@@ -50,7 +50,12 @@ KELAS: TI-3F
 # PRAKTIKUM 2
 ### Soal 6
 - Jelaskan maksud kode langkah 8 dan 10 tersebut!
+     jawab: 
+     - langkah 8: kode tersebut berfungsi untuk menghubungkan objek NumberStream dengan widget. Saat ada perubahan pada stream (misalnya, ketika angka baru ditambahkan), widget akan memperbarui tampilannya menggunakan setState. Hal ini memastikan bahwa antarmuka pengguna dirender ulang sesuai dengan perubahan yang terjadi dalam stream.
+     - langkah 10: Fungsi addRandomNumber bertujuan untuk menambahkan angka acak ke dalam suatu stream melalui objek NumberStream, dengan kata lain, fungsi addRandomNumber digunakan untuk menghasilkan angka acak dan mengirimkannya ke dalam stream, memulai aliran perubahan yang akan memengaruhi widget yang terkait dengan stream tersebut.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
+![Screenshot hello_world](docs/6.gif)
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6".
 
 ### Soal 7
